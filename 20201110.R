@@ -66,6 +66,11 @@ theme(text = element_text(family = "Andale Mono"), legend.position = "none", # c
 plot5
 ggsave("callMeMobile3.png")
 
+#Key learnings:
+
+  #1 strip.background = element_rect(colour="white", fill="#FFFFFF"), # removing the gray facet_wrap box
+  #2 For the geom_density_ridges to work you need a factor var on the y axis!
+  #3 with this you should theoretically change the x-ticks: scale_x_discrete(breaks=seq(1990,2015,5))
 
 # mobile_clean <- mobile %>%
 #   mutate(entity=as.factor(entity),
