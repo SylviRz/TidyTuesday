@@ -45,7 +45,7 @@ mobile_afreuro%>%
           q70=quantile(mobile_pp,probs=(.7), na.rm=TRUE),
           q75=quantile(mobile_pp,probs=(.75), na.rm=TRUE))  
 
-#Plotting
+#Final Plot
 plot5<-ggplot(mobile_afreuro, aes(x =mobile_pp , y =  as.factor(year), fill = as.factor(year))) +
   geom_density_ridges(alpha=0.6) +
   scale_fill_viridis(discrete=TRUE) +
