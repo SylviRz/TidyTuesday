@@ -3,15 +3,15 @@ install.packages("ggtext")
 install.packages("ggridges")
 install.packages("hrbrthemes")
 library(tidytuesdayR)
-library(ggplot2)
+
 library(GGally)
 library(ggtext)
 library(ggridges)
-library(ggplot2)
 library(viridis)
+library(tidytuesdayR)
+library(ggplot2)
 library(hrbrthemes)
 library(tidyverse)
-library(purrr)
 
 tuesdata <- tidytuesdayR::tt_load('2020-11-24')
 
@@ -35,7 +35,6 @@ plot4<-ggplot(hike_data_clean, aes(x=fct_rev(fct_infreq(features)))) + # ordered
         plot.caption = element_text(hjust = 0.5, size = 8, color = "bisque4"), # remove x-axis text and edit the caption (centered and brown)
         panel.grid.major = element_blank(),
         panel.background = element_rect(fill="lightblue"),
-        #strip.background = element_rect(colour="white", fill="#FFFFFF"), # removing the gray facet_wrap box
         plot.title = element_text(size = 24), 
         plot.subtitle = element_markdown(size=8, family = "Helvetica", color = "bisque4")) + # make the title bigger and edit the subtitle (font)
   # title

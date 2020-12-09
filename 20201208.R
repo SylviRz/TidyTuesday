@@ -8,23 +8,14 @@ install.packages("tidytext")
 install.packages("stopwords") 
 library(tidytuesdayR)
 library(ggplot2)
-library(GGally)
-#library(ggtext)
-#library(ggridges)
-library(ggplot2)
-#library(viridis)
-#library(hrbrthemes)
 library(tidyverse)
 library(rvest)
 library(tokenizers)
 library(tidytext)
 library(stopwords)
-#library(hcandersenr)
-
-
+library(SnowballC) #for stemming
 
 rm(list=ls(all=TRUE))
-
 
 women <- tidytuesdayR::tt_load('2020-12-08')$women
 
@@ -33,11 +24,8 @@ women <- tidytuesdayR::tt_load('2020-12-08')$women
   table(women$category)
   table(women$role)
   table(women$country)
-  tokenize_words(women$description) %>%
-    
-install.packages("SnowballC")
-  library(SnowballC) #for stemming
-  
+
+
 # Getting tokens (by category), removing stopwords, stemming
 descr_token_wostop<-women %>%
     select(category, description) %>%
@@ -48,7 +36,7 @@ descr_token_wostop<-women %>%
     mutate(description = gsub("'", "", description)) %>%
     unnest_tokens(word, description)%>% 	
     filter(!(word %in% stopwords(source = "snowball"))) %>%
-    #also removing: year
+    #also removing: year, name, dr, work and numbers (because not super informative)
     filter(!(word %in% c("year", "around", "name","dr", "work", "19", "22", "23", "2020"))) %>%
     mutate(stem = wordStem(word)) %>%
     group_by(category) %>%
@@ -58,34 +46,41 @@ descr_token_wostop<-women %>%
     slice(1:10)
 
 #Plotting
-plot4<-ggplot(
+plot<-ggplot(
   descr_token_wostop,
   aes(
     label = stem, size = n,
-    x=category, color = category
-  )
-) +
+    x=category, color = category)
+  ) +
   geom_text_wordcloud_area() +
-  scale_size_area(max_size = 6) +
-  #scale_x_discrete(breaks = NULL) +
-  #Layouting
+  scale_size_area(max_size = 7) +
+  scale_color_carto_d(palette="Bold") +
+#Layouting
   theme_minimal() +
   coord_flip() +
   theme(aspect.ratio = 1.5,
-      text = element_text(family = "Andale Mono"), legend.position = "none", # change all text font and move the legend to the bottom
+      text = element_text(family = "Andale Mono"), legend.position = "none", # change all text font and remove the legend
       panel.grid = element_line(color="white"),  # change the grid color and remove minor y axis lines
-      plot.caption = element_text(hjust = 0, size = 8, color = "#29AF7FFF"), # remove x-axis text and edit the caption (centered and brown)
-      plot.title = element_text(size = 24), plot.subtitle = element_markdown(size=9, family = "Helvetica", color = "#29AF7FFF")) +# make the title bigger and edit the subtitle (font)
+      plot.caption = element_text(hjust = 0, size = 9, color = "#11A579"),
+      plot.title = element_text(size = 18), plot.subtitle = element_markdown(size=9, family = "Helvetica", color = "#11A579"),
+      axis.text=element_text(size=14)) +
   # title
-  labs(title = "Describing infuential women",
-       subtitle = "with the top 10 word stems by category",
+  labs(title = "Describing inspiring women",
+       subtitle = "with the top 10 word stems by category from the BBC 2020 list",
        x = NULL, y=NULL,
        caption = "DataViz by @SylviRz for #TidyTuesday, data from BBC")
-plot4
-ggsave("describing_influential_women.png", width=5, height=6)
+plot
+ggsave("describing_influential_women.png", width=5.5, height=8)
+
+
+#learned
+  #tidytexting
+  #word counting
 
 #To Do 
   # nice colors
+  # experiment with aspect.ratio
+  # use words instead of stems?
 
 
 
