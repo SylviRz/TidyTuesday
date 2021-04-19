@@ -110,14 +110,3 @@ open_closeplot
 ggsave("/Users/rzepka/Documents/Correlaid/TidyTuesday/TidyTuesday/20210413.png")
 
   
-
-# Source:
-  # https://thenounproject.com/coquet_adrien/collection/mail/?i=953541
-
-
-
-#Learnings:
-  #filter() löscht NAs -- subset() macht das nicht
-  #cumsum() für kumulierte Summen
-  #recode missing to zero with ifelse... 
-# - scale_x_discrete(guide = guide_axis(n.dodge=2))
