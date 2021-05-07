@@ -39,7 +39,7 @@ Quick Link
 
 
 ***
-### [October 11, 2020] (https://github.com/SylviRz/TidyTuesday/blob/main/callMeMobile.png)
+### [October 11, 2020](https://github.com/SylviRz/TidyTuesday/blob/main/callMeMobile.png)
 
 ![](https://github.com/SylviRz/TidyTuesday/blob/main/callMeMobile3.png)
 
