@@ -15,6 +15,7 @@ Quick Link
 * **2020**
   - December 8, 2020 [BBC Influential Women](https://github.com/SylviRz/TidyTuesday/blob/main/describing_influential_women.png)
   - November  [TO ADD]()
+  - October 11, 2020 [Mobile Phones and Landlines](https://github.com/SylviRz/TidyTuesday/blob/main/callMeMobile.png)
 * **2021**
   - April 13, 2021 [Rise and Fall of US Post Offices] (https://github.com/SylviRz/TidyTuesday/blob/main/20210413.png)
 <!-- tocstop -->
@@ -36,6 +37,13 @@ Quick Link
 
 ***
 
+
+***
+### [October 11, 2020] (https://github.com/SylviRz/TidyTuesday/blob/main/callMeMobile.png)
+
+![](https://github.com/SylviRz/TidyTuesday/blob/main/callMeMobile3.png)
+
+***
 
 #### Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
 <div style="width:300px; height:200px">
