@@ -14,9 +14,9 @@ Quick Link
 <!-- toc -->
 * **2020**
   - December 22, 2020 [Big Mac](https://github.com/SylviRz/TidyTuesday/blob/main/20201222/bigmacindex_by_currency.jpg)
-  - December 8, 2020 [BBC Influential Women](https://github.com/SylviRz/TidyTuesday/blob/main/describing_influential_women.png)
+  - December 8, 2020 [BBC Influential Women](https://github.com/SylviRz/TidyTuesday/blob/main/20201208/describing_influential_women.png)
   - November 24, 2020 [Washington Trails](https://github.com/SylviRz/TidyTuesday/blob/main/20201124/mountainhigh1.png)
-  - October 11, 2020 [Mobile Phones and Landlines](https://github.com/SylviRz/TidyTuesday/blob/main/callMeMobile.png)
+  - October 11, 2020 [Mobile Phones and Landlines](https://github.com/SylviRz/TidyTuesday/blob/main/20201011/callMeMobile.png)
 * **2021**
   - April 13, 2021 [Rise and Fall of US Post Offices](https://github.com/SylviRz/TidyTuesday/blob/main/20210413/20210413.png)
 <!-- tocstop -->
@@ -38,9 +38,9 @@ Quick Link
 
 
 
-### [December 8, 2020](https://github.com/SylviRz/TidyTuesday/blob/main/describing_influential_women.png)
+### [December 8, 2020](https://github.com/SylviRz/TidyTuesday/blob/main/20201208/describing_influential_women.png)
 
-![](https://github.com/SylviRz/TidyTuesday/blob/main/describing_influential_women.png)
+![](https://github.com/SylviRz/TidyTuesday/blob/main/20201208/describing_influential_women.png)
 
 
 ### [November 24, 2020](https://github.com/SylviRz/TidyTuesday/blob/main/20201124/mountainhigh1.png)
@@ -48,9 +48,9 @@ Quick Link
 ![](https://github.com/SylviRz/TidyTuesday/blob/main/20201124/mountainhigh1.png)
 
 
-### [October 11, 2020](https://github.com/SylviRz/TidyTuesday/blob/main/callMeMobile.png)
+### [October 11, 2020](https://github.com/SylviRz/TidyTuesday/blob/main/20201011/callMeMobile.png)
 
-![](https://github.com/SylviRz/TidyTuesday/blob/main/callMeMobile3.png)
+![](https://github.com/SylviRz/TidyTuesday/blob/main/20201011/callMeMobile3.png)
 
 ***
 
