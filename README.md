@@ -13,6 +13,8 @@ Quick Link
 
 <!-- toc -->
 * **2020**
+  - December 22, 2020 [Big Mac](https://github.com/SylviRz/TidyTuesday/blob/main/bigmacindex_by_currency.jpg)
+  - December 8, 2020 [BBC Influential Women](https://github.com/SylviRz/TidyTuesday/blob/main/describing_influential_women.png)
   - December 8, 2020 [BBC Influential Women](https://github.com/SylviRz/TidyTuesday/blob/main/describing_influential_women.png)
   - November 24, 2020 [Washington Trails](https://github.com/SylviRz/TidyTuesday/blob/main/20201124/mountainhigh1.png)
   - October 11, 2020 [Mobile Phones and Landlines](https://github.com/SylviRz/TidyTuesday/blob/main/callMeMobile.png)
@@ -28,6 +30,14 @@ Quick Link
 ### [April 13, 2021](https://github.com/SylviRz/TidyTuesday/blob/main/20210413/20210413.png) 
 
 ![](https://github.com/SylviRz/TidyTuesday/tree/main/20210413/20210413.png)
+
+***
+
+### [December 22, 2020](https://github.com/SylviRz/TidyTuesday/blob/main/bigmacindex_by_currency.jpg)
+
+![](https://github.com/SylviRz/TidyTuesday/blob/main/bigmacindex_by_currency.jpg)
+
+***
 
 ***
 
