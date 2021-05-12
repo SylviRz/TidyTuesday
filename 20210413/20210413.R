@@ -103,7 +103,7 @@ open_closeplot<-ggplot(open_close, aes(x=years, y=current_number, image = letter
        subtitle = "In the US, the number of post offices peaked in the early 1900s. \nEver since, more post offices close than open every year.",
         x= "Period",
         y= "Number of Open Post Offices",
-       caption = "*Endpoint of time period 20-year interval. \nData: Blevins & Helbock, 2021, US Post Offices, \nhttps://doi.org/10.7910/DVN/NUKCNA \nDataViz @SylviRz") +
+       caption = "*Indicates endpoint of 20-year interval. \nData: Blevins & Helbock, 2021, US Post Offices, \nhttps://doi.org/10.7910/DVN/NUKCNA \nDataViz @SylviRz") +
   scale_x_discrete(labels=xlabs) 
 open_closeplot
 
