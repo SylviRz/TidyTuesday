@@ -25,9 +25,9 @@ Quick Link
 
 ***
 
-### [April 13, 2021](https://github.com/SylviRz/TidyTuesday/blob/main/20210413.png) 
+### [April 13, 2021](https://github.com/SylviRz/TidyTuesday/tree/main/20210413/20210413.png) 
 
-![](https://github.com/SylviRz/TidyTuesday/blob/main/20210413.png)
+![](https://github.com/SylviRz/TidyTuesday/tree/main/20210413/20210413.png)
 
 ***
 
