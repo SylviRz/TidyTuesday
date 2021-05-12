@@ -32,6 +32,8 @@ Quick Link
 
 ***
 
+***
+
 ### [December 22, 2020](https://github.com/SylviRz/TidyTuesday/blob/main/20201222/bigmacindex_by_currency.jpg)
 
 ![](https://github.com/SylviRz/TidyTuesday/blob/main/20201222/bigmacindex_by_currency.jpg)
