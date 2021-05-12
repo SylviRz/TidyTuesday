@@ -17,7 +17,7 @@ Quick Link
   - November 24, 2020 [Washington Trails](https://github.com/SylviRz/TidyTuesday/blob/main/20201124/mountainhigh1.png)
   - October 11, 2020 [Mobile Phones and Landlines](https://github.com/SylviRz/TidyTuesday/blob/main/callMeMobile.png)
 * **2021**
-  - April 13, 2021 [Rise and Fall of US Post Offices](https://github.com/SylviRz/TidyTuesday/tree/main/20210413/20210413.png)
+  - April 13, 2021 [Rise and Fall of US Post Offices](https://github.com/SylviRz/TidyTuesday/blob/main/20210413/20210413.png)
 <!-- tocstop -->
 
 
@@ -25,7 +25,7 @@ Quick Link
 
 ***
 
-### [April 13, 2021](https://github.com/SylviRz/TidyTuesday/tree/main/20210413/20210413.png) 
+### [April 13, 2021](https://github.com/SylviRz/TidyTuesday/blob/main/20210413/20210413.png) 
 
 ![](https://github.com/SylviRz/TidyTuesday/tree/main/20210413/20210413.png)
 
