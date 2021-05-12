@@ -28,35 +28,26 @@ Quick Link
 
 ### [April 13, 2021](https://github.com/SylviRz/TidyTuesday/blob/main/20210413/20210413.png) 
 
-![](https://github.com/SylviRz/TidyTuesday/tree/main/20210413/20210413.png)
+![](https://github.com/SylviRz/TidyTuesday/blob/main/20210413/20210413.png)
 
-***
 
-***
 
 ### [December 22, 2020](https://github.com/SylviRz/TidyTuesday/blob/main/20201222/bigmacindex_by_currency.jpg)
 
 ![](https://github.com/SylviRz/TidyTuesday/blob/main/20201222/bigmacindex_by_currency.jpg)
 
-***
 
-***
 
 ### [December 8, 2020](https://github.com/SylviRz/TidyTuesday/blob/main/describing_influential_women.png)
 
 ![](https://github.com/SylviRz/TidyTuesday/blob/main/describing_influential_women.png)
 
-***
 
-
-***
 ### [November 24, 2020](https://github.com/SylviRz/TidyTuesday/blob/main/20201124/mountainhigh1.png)
 
 ![](https://github.com/SylviRz/TidyTuesday/blob/main/20201124/mountainhigh1.png)
 
-***
 
-***
 ### [October 11, 2020](https://github.com/SylviRz/TidyTuesday/blob/main/callMeMobile.png)
 
 ![](https://github.com/SylviRz/TidyTuesday/blob/main/callMeMobile3.png)
