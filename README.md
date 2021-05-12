@@ -53,7 +53,7 @@ Quick Link
 
 ### [October 28, 2020](https://github.com/SylviRz/TidyTuesday/blob/main/20201028/manufacturers_province.pdf)
 
-![](https://github.com/SylviRz/TidyTuesday/blob/main/20201028/manufacturers_province)
+![](https://github.com/SylviRz/TidyTuesday/blob/main/20201028/manufacturers_province.pdf)
 
 
 ***
