@@ -9,7 +9,7 @@ Quick Link
 
 
 <details>
-<summary>Summary of Contributions</summary>
+<summary>Summary</summary>
 
 <!-- toc -->
 * **2020**
@@ -17,6 +17,7 @@ Quick Link
   - December 8, 2020 [BBC Influential Women](https://github.com/SylviRz/TidyTuesday/blob/main/20201208/describing_influential_women.png)
   - November 24, 2020 [Washington Trails](https://github.com/SylviRz/TidyTuesday/blob/main/20201124/mountainhigh1.png)
   - October 11, 2020 [Mobile Phones and Landlines](https://github.com/SylviRz/TidyTuesday/blob/main/20201011/callMeMobile.png)
+  - October 28, 2020 [Windturbines in Canada](https://github.com/SylviRz/TidyTuesday/blob/main/20201028/manufacturers_province.pdf)
 * **2021**
   - April 13, 2021 [Rise and Fall of US Post Offices](https://github.com/SylviRz/TidyTuesday/blob/main/20210413/20210413.png)
 <!-- tocstop -->
@@ -47,6 +48,9 @@ Quick Link
 
 ![](https://github.com/SylviRz/TidyTuesday/blob/main/20201124/mountainhigh1.png)
 
+### [October 28, 2020](https://github.com/SylviRz/TidyTuesday/blob/main/20201028/manufacturers_province.pdf)
+
+![](https://github.com/SylviRz/TidyTuesday/blob/main/20201028/manufacturers_province.pdf)
 
 ### [October 11, 2020](https://github.com/SylviRz/TidyTuesday/blob/main/20201011/callMeMobile.png)
 
