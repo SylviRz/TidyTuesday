@@ -4,12 +4,9 @@ library(tidytuesdayR)
 rm(list=ls(all=TRUE))
 
 
-# Note/ Learnings 
+# Note
 
-  # didn't finish this - do a graph that tells a story I care about in intuitive way 
-  # (the man/ women share would have been nicer) and in the easiest way I know myself.
-  # collapsing data to certain category level
-  # reordering a factor
+  # didn't finish this one
 
 # Read in as a dataframe
 earn <- as.data.frame(tt_load('2021-02-23')$"earn")
@@ -143,6 +140,6 @@ ggsave("/Users/rzepka/Documents/Correlaid/TidyTuesday/TidyTuesday/20210223.pdf")
 
 
 #to dos
-- factor variables - give them good levels
-- Get a nice font - Rajdhani?
-- Color the background in a beige tone... 
+#- factor variables - give them good levels
+#- Get a nice font - Rajdhani?
+#- Color the background in a beige tone... 
