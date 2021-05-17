@@ -44,14 +44,3 @@ plot4<-ggplot(hike_data_clean, aes(x=fct_rev(fct_infreq(features)))) + # ordered
        caption = "DataViz by @SylviRz for #TidyTuesday, Data: Washington Trails Association")
 plot4
 ggsave("mountainhigh1.png")
-
-# to do:
-#   - subtitle line break
-# - order the hike features a bit differently OK
-# - include features as axis labels for the numeric var... differnt---
-
-# 3 learnings
- #scale_x_discrete(guide = guide_axis(n.dodge = 3)) -- to have the xaxis labels spread out on 2 rows
- #tidyr::unnest(features, keep_empty=TRUE) -- to turn a list into a variable, 
-    #option keep_empty has FALSE as default, make sure to put keep_empty=TRUE
- # within ggplot use fct_infreq() to order a factor from most common to least common, place fct_rev() to order ascendingly
