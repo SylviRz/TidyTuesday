@@ -61,13 +61,6 @@ plot4<-ggplot(wind2, aes(fill=manufacturer_fct_o, x=n, y=province_territory)) +
   theme(legend.title = element_blank(),
     legend.position = "bottom")
 plot4
+
 ggsave("/Users/rzepka/Documents/Correlaid/TidyTuesday/20201028/manufacturers_province.pdf")
 #ggsave("/Users/rzepka/Documents/Correlaid/TidyTuesday/20201028/manufacturers_province_carto.pdf")
-
-# make an other category
-
-  
-#tipps:
-#rnaturalearth -- for maps
-#ggforce -- voronoi tiles
-#
