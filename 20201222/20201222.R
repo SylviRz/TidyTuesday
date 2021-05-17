@@ -82,8 +82,3 @@ tmap_save(
   tm = map1,
   filename = "bigmacindex_by_currency.jpg", width=8.5, height=5)
 
-# Learnings
-  # how to duplicate rows: slice(rep(1:n(), each=19))  -- copies the row 19 times
-  # tm_facet - doesn't require a long data set
-  # tmap's data(world) has the shapefiles as a world map
-  # For the message a graph with bars lower or higher than zero for each country would have been a bit more informative
