@@ -77,4 +77,7 @@ plot3
 #to dos
   # turn those with no short cuts gray
   # make a variable current 10 record times before the short cut and 10 after
+  # Or: last pre short cut time versus first post-shortcut time
+  # Is there a convergence of shortcut - non-shortcut times?
+  # if I want to show the difference in pre and post I could also directly show that 
   # check: how long does a record time last?
